@@ -32,7 +32,7 @@ And save it in a file.
 
 ## Repeats
 
-In order to mask repeats we used the sequences of the TEs described in [Espagne et al.](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2008-9-5-r77) (or those that we could find), plus the RepBase database for fungi, and the *Neurospora* library from [Gioti et al. (2012)](https://academic.oup.com/mbe/article/29/10/3215/1031597).
+In order to mask repeats we used the sequences of the TEs described in [Espagne et al. (2008)](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2008-9-5-r77) (or those that we could find), plus the RepBase database for fungi, and the *Neurospora* library from [Gioti et al. (2012)](https://academic.oup.com/mbe/article/29/10/3215/1031597).
 
 Below, watch out for the path to the scripts:
 
