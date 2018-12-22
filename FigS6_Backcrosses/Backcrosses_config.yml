@@ -1,0 +1,16 @@
+# List of samples to analyze
+SampleIDs: ["Pa170m", "Pa180p", "Pa130p", "Pa200p", "PaSp", "PaSm", "PaWa53p", "PaWa58m", "PaWa28m", "PaYp"]
+SampleIDsOthers: ["PaWa21m", "PaWa46p", "PaWa63p", "PaWa87m", "PaWa100p", "PaTgp", "CBS237.71m", "PcTdp"]
+
+# Path to Illumina samples
+Illumina: "path_to_IlluData/"
+
+# The reference genome
+Podan2file: "extras/Podan2_AssemblyScaffoldsmt.fa"
+
+# My local installation of GATK3
+gatk3: "localpath/GenomeAnalysisTK.jar"
+
+TElib: "extras/FungiRepbaseEspagneGioti.lib"
+
+rscript: "scripts/FigS6_Backcrosses.R"
