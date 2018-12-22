@@ -26,7 +26,7 @@ And save it in a file.
 
 **AN IMPORTANT CAVEAT TO THIS:** My installation of GATK3 is LOCAL. Meaning that I didn't install it along with this environment. The reason is that it requires to download a license ... Instead I have installed locally in the cluster and call that within the snakemake pipeline. It's unfortunate, but this will change with GATK4. The reason why I kept it in GATK3 is because I used the `IndelRealigner` function externally for my Pilon polishing in the genome assemblies. Hence, I decided to stick to a single methodology for producing BAM files, including the SNP calling. In reality using GATK4 would have no effect on our conclusions, since we only need coarse results, not accurate variant calling.
 
-## Prepare your configuration file
+## Prepare your configuration file
 
 This pipeline depends on a given configuration yaml file including the samples, the path to the data, and the reference. Below it's an example, but make sure the paths are correct for you!
     
