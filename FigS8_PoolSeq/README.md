@@ -14,7 +14,7 @@ Now, to create the environment.
 
 The last part of the pipeline plots the result in R, so I'll need:
 
-    # First I'll activate it to install installing things inside
+    # First I'll activate it to install things inside
     $ conda activate VariantCalling
     $ conda install -c r r-base=3.5.1=h1e0a451_2
     $ conda install -c conda-forge r-ggplot2=3.1.0=r351h6115d3f_1000 r-reshape2=1.4.3=r351h9d2a408_2 r-dplyr=0.7.6=r351h9d2a408_1
