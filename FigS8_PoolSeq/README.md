@@ -2,7 +2,7 @@
 
 ## Building the environment
 
-This pipeline relies on the AssemblyNanopore environment (but you can call it as you wish).
+This pipeline relies on the VariantCalling environment (but you can call it as you wish).
 
 First, you can start by updating conda.
 
