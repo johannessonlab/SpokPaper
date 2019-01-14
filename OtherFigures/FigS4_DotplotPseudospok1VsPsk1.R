@@ -3,7 +3,7 @@
 # Dotplot of the haplotype of Pseudospok1 vs the Spok block
 # =======================================
 # NUCmer was run like such:
-# $ nucmer -b 2000 -c 20 -p pseudospok.delta Psk1_PaWa87m.fa Pseudospok1_PaWa87m.fa -t 1 --maxmatch
+# $ nucmer -b 2000 -c 20 -p pseudospok.delta Psk1_PaWa87p.fa Pseudospok1_PaWa87p.fa -t 1 --maxmatch
 # $ show-coords -r -B pseudospok.delta > pseudospok.tab
 # =======================================
 # Sandra Lorena Ament Velasquez
@@ -27,7 +27,7 @@ names(coords) <- c("QUERY","DATE","LEN_Q","PROGRAM","REF_FILE","REF","S2","E2","
 # ============================
 # Prepare a function to produce the DotPlots from a given data set
 
-PaWa87m <- data.frame(Gene = c("Spok3", "Spok4"),
+PaWa87p <- data.frame(Gene = c("Spok3", "Spok4"),
                       S1 = c(82737, 40494),
                       end = c(84974, 42770),
                       LEN_Q = 0)
@@ -82,7 +82,7 @@ dotplotter <- function(data, multiref = FALSE){
 dotplotter(coords) + theme_bw() + # White background
   theme(strip.text.y = element_blank(), panel.border=element_blank()) + # Remove the gray label on the side and border of plot
   geom_hline(yintercept=0) + geom_vline(xintercept=0) + 
-  geom_segment(data = PaWa87m, aes(x = S1, xend = end, yend = 1, colour = Gene), size = 5) +
+  geom_segment(data = PaWa87p, aes(x = S1, xend = end, yend = 1, colour = Gene), size = 5) +
   geom_segment(data = pseudo, aes(x = S1, xend = 1, y = LEN_Q, yend = end, colour = Gene), size = 5) +
   scale_color_manual(values=c("azure4", "chartreuse4", "brown2")) 
 
