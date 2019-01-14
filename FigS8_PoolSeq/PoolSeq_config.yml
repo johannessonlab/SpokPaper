@@ -2,8 +2,8 @@
 Illumina: "path_to_IlluData/"
 
 # List of samples to analyze
-diploids: ("Pool2spores", "Pool4spores") # Notice the tuple
-haploids: ("PaYp", "PaWa87m") #The parents were PaYm and PaWa87p, but they are mostly isogenic
+diploids: ["Pool2spores", "Pool4spores"]
+haploids: ["PaYp", "PaWa87p"] #The parents were PaYm and PaWa87p, but they are mostly isogenic
 
 # The reference genome
 Podan2file: "extras/Podan2_AssemblyScaffoldsmt.fa"

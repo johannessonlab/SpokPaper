@@ -72,7 +72,7 @@ MAFs <- genotypes %>% rowwise() %>% mutate(maf = min(Ref, Alt)/DP, relRef = Ref/
 
 ### Now, I want to filter out everything that is not "haploid-looking" in the parentals
 # Get indexes of bad SNPs per sample
-indexpersamp_2sp <- which(MAFs %>% filter(Sample == "PaWa87m") %>% .$maf >= 0.2 )
+indexpersamp_2sp <- which(MAFs %>% filter(Sample == "PaWa87p") %>% .$maf >= 0.2 )
 indexpersamp_4sp <- which(MAFs %>% filter(Sample == "PaYp") %>% .$maf >= 0.2 )
 # Merge the two lists of SNPs
 badsnps <- c(indexpersamp_2sp, indexpersamp_4sp) %>% sort %>% unique()
@@ -102,7 +102,7 @@ allmarkers <- rbind(centromeres, markers)
 
 ### ---- Keep track of the parental ----
 filteredMAFs <- MAFs[-albadsnps,] # %>% filter(DP >= 50 & DP <=150 & maf >= 0.01)
-alleleWa87 <- filteredMAFs %>% filter(Sample == "PaWa87m") %>% .$allele
+alleleWa87 <- filteredMAFs %>% filter(Sample == "PaWa87p") %>% .$allele
 alleleYp <- filteredMAFs %>% filter(Sample == "PaYp") %>% .$allele
 
 spores2 <- filteredMAFs %>% filter(Sample == "Pool2spores")
