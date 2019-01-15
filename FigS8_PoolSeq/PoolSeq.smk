@@ -38,7 +38,7 @@ gatk3 = config["gatk3"]
 
 # ----------
 # Rules not submitted to a job
-localrules: rawdata_illumina, referencegenome, indexbwa, snpsvcf, snpsvcfnomiss, snpsvcfthin
+localrules: rawdata_illumina, referencegenome, indexbwa, snpsvcf, snpsvcfnomiss, snpsvcfthin, plotinR
 # ----------
 
 rule all:
