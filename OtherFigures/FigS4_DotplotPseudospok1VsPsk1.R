@@ -84,7 +84,7 @@ dotplotter(coords) + theme_bw() + # White background
   geom_hline(yintercept=0) + geom_vline(xintercept=0) + 
   geom_segment(data = PaWa87p, aes(x = S1, xend = end, yend = 1, colour = Gene), size = 5) +
   geom_segment(data = pseudo, aes(x = S1, xend = 1, y = LEN_Q, yend = end, colour = Gene), size = 5) +
-  scale_color_manual(values=c("azure4", "chartreuse4", "brown2")) 
+  scale_color_manual(values=c("azure4", "aquamarine2", "brown2")) 
 
 ggsave(file = "Figure_S4_PseudospokBlock.pdf", width = 8, height = 5, scale = 2.5, units = "cm")
 
