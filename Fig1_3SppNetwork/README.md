@@ -49,6 +49,7 @@ The reference genomes for *P. anserina*, or Podan2 ([Espagne et al. 2008](https:
 So the file looks like: 
 
     $ cat 3SppForNetwork_config.yaml
+```yaml
     ### 3SppForNetwork configuration file
     # ++++++++++++++++++++++++++++++++++++++++++++++
     # Get 1000 single-copy ortholog groups of Podospora anserina and close sisters
@@ -76,6 +77,7 @@ So the file looks like:
 
     # Number of sample orthologs
     SAMPLEsize: 1000
+```
 
 ## Run pipeline locally
 
