@@ -1,8 +1,6 @@
 # Circos plot of *Podospora* spp
 
-	$ pwd
-    /home/lore/1_SpokPaper
-    $ mkdir 2_Circos && cd 2_Circos
+A pipeline to produce Circos plots with the alignment of a representative strain from each *Podospora* species.
 
 ## Building the environment
 
@@ -34,15 +32,15 @@ The configuration file only contains the path to the 3 genomes in focus. I chose
         
     $ cat Circos_config.yaml
 ```yaml
-    ### Circos plot of Podospora spp
-    ### ----------------------------------
-    # The Circos configuration files must be in a folder called "circos" in the
-    # working directory
+### Circos plot of Podospora spp
+### ----------------------------------
+# The Circos configuration files must be in a folder called "circos" in the
+# working directory
 
-    # Genomes that already exclude the mitochondrial scaffold
-    anserina: "data/PaWa58m_chrs.fa"
-    pauciseta: "data/CBS237.71m_chrs.fa"
-    comata: "data/comataT_chrs.fa"
+# Genomes that already exclude the mitochondrial scaffold
+anserina: "data/PaWa58m_chrs.fa"
+pauciseta: "data/CBS237.71m_chrs.fa"
+comata: "data/comataT_chrs.fa"
 ```
 
 ## The Circos file
