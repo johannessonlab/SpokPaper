@@ -31,12 +31,14 @@ Install the following packages:
 Unfortunately Snakemake runs in python3 and OrthoFinder requires python 2. So I run the OrthoFinder rule with it's own conda environment. This is achieved by having a separate configuration file in the directory `envs`:
 
     $ cat envs/orthofinder.yaml
+```yaml
     channels:
       - bioconda
       - defaults
       - conda-forge
     dependencies:
       - orthofinder=2.2.6
+```
 
 ## The configuration file
 
