@@ -1,0 +1,9 @@
+### Circos plot of Podospora spp
+### ----------------------------------
+# The Circos configuration files must be in a folder called "circos" in the
+# working directory
+
+# Genomes that already exclude the mitochondrial scaffold
+anserina: "data/PaWa58m_chrs.fa"
+pauciseta: "data/CBS237.71m_chrs.fa"
+comata: "data/comataT_chrs.fa"
