@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 49 of /Users/Lorena/Dropbox/PhD_UU/ProjectsCode/SpokPaper/Fig1_3SppNetwork/3SppForNetwork.smk:
+Missing input files for rule getgenomes:
+/path/to/assemblies/PaWa100p.nice.fa
