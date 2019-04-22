@@ -32,12 +32,12 @@ Unfortunately Snakemake runs in python3 and OrthoFinder requires python 2. So I 
 
     $ cat envs/orthofinder.yaml
 ```yaml
-    channels:
-      - bioconda
-      - defaults
-      - conda-forge
-    dependencies:
-      - orthofinder=2.2.6
+channels:
+  - bioconda
+  - defaults
+  - conda-forge
+dependencies:
+  - orthofinder=2.2.6
 ```
 
 ## The configuration file
