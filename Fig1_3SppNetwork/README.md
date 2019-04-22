@@ -50,33 +50,33 @@ So the file looks like:
 
     $ cat 3SppForNetwork_config.yaml
 ```yaml
-    ### 3SppForNetwork configuration file
-    # ++++++++++++++++++++++++++++++++++++++++++++++
-    # Get 1000 single-copy ortholog groups of Podospora anserina and close sisters
-    # into a matrix for a network analysis
-    # ++++++++++++++++++++++++++++++++++++++++++++++
+### 3SppForNetwork configuration file
+# ++++++++++++++++++++++++++++++++++++++++++++++
+# Get 1000 single-copy ortholog groups of Podospora anserina and close sisters
+# into a matrix for a network analysis
+# ++++++++++++++++++++++++++++++++++++++++++++++
 
-    # Samples names
-    SampleIDs: ["PaWa100p", "PaWa21m", "PaWa28m", "PaWa46p", "PaWa53m", "PaWa58m", "PaWa63p", "PaWa87p", "PaYp", "CBS237.71m", "PaTgp"]
+# Samples names
+SampleIDs: ["PaWa100p", "PaWa21m", "PaWa28m", "PaWa46p", "PaWa53m", "PaWa58m", "PaWa63p", "PaWa87p", "PaYp", "CBS237.71m", "PaTgp"]
 
-    # Path to alignments in format "sample.nice.fa"
-    assembliespath: "/path/to/assemblies"
+# Path to alignments in format "sample.nice.fa"
+assembliespath: "/path/to/assemblies"
 
-    # Data of P. anserina and P. comata reference genomes
-    podan2: "references/Podan2_AssemblyScaffoldsmt.fa"
-    podan2genes: "references/Podan2_AssemblyScaffoldsGenesEd_gene.fas"
-    podan2gff: "references/Podan2_AssemblyScaffoldsmtGenesEd_gh.gff"
-    PODCO: "references/PODCO_genomic.fas"
-    PODCOgff: "references/PODCO_genomic.gff3"
+# Data of P. anserina and P. comata reference genomes
+podan2: "references/Podan2_AssemblyScaffoldsmt.fa"
+podan2genes: "references/Podan2_AssemblyScaffoldsGenesEd_gene.fas"
+podan2gff: "references/Podan2_AssemblyScaffoldsmtGenesEd_gh.gff"
+PODCO: "references/PODCO_genomic.fas"
+PODCOgff: "references/PODCO_genomic.gff3"
 
-    ## Scripts (included in the repo)
-    gff2fasta: "scripts/gffutils2fasta.py"
-    orthogrs_parser: "scripts/orthogrs_parser.py"
-    query2hitseq: "scripts/query2hitseq.py"
-    fastaconcat: "scripts/fastaconcat.py"
+## Scripts (included in the repo)
+gff2fasta: "scripts/gffutils2fasta.py"
+orthogrs_parser: "scripts/orthogrs_parser.py"
+query2hitseq: "scripts/query2hitseq.py"
+fastaconcat: "scripts/fastaconcat.py"
 
-    # Number of sample orthologs
-    SAMPLEsize: 1000
+# Number of sample orthologs
+SAMPLEsize: 1000
 ```
 
 ## Run pipeline locally
