@@ -47,7 +47,7 @@ This pipeline depends on a given configuration yaml file including the samples, 
     # My local installation of GATK3
     gatk3: "localpath/GenomeAnalysisTK.jar"
 
-    rscript: "scripts/FigS8_PoolSeqYvsWa87.R"
+    rscript: "scripts/PoolSeqYvsWa87.R"
 ```
 
 ## Run pipeline in slurm server (like Uppmax)
