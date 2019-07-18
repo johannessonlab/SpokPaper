@@ -14,4 +14,4 @@ thining: 200
 # My local installation of GATK3
 gatk3: "localpath/GenomeAnalysisTK.jar"
 
-rscript: "scripts/FigS8_PoolSeqYvsWa87.R"
+rscript: "scripts/PoolSeqYvsWa87.R"
