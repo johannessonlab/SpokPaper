@@ -1,0 +1,17 @@
+# Illumina reads path:
+Illumina: "path_to_IlluData/"
+
+# List of samples to analyze
+diploids: ["Pool2spores", "Pool4spores"]
+haploids: ["PaYp", "PaWa87p"] #The parents were PaYm and PaWa87p, but they are mostly isogenic
+
+# The reference genome
+Podan2file: "extras/Podan2_AssemblyScaffoldsmt.fa"
+
+# For filtering
+thining: 200
+
+# My local installation of GATK3
+gatk3: "localpath/GenomeAnalysisTK.jar"
+
+rscript: "scripts/FigS8_PoolSeqYvsWa87.R"
