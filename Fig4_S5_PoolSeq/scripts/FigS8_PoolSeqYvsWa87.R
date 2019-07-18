@@ -13,7 +13,7 @@
 # Sandra Lorena Ament Velasquez
 # Johannesson Lab, Evolutionary Biology Center, Uppsala University, Sweden
 # 2018-08-28
-# Version 0
+# Version 1
 # =======================================
 
 library(vcfR) # browseVignettes("vcfR")
